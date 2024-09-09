@@ -115,29 +115,6 @@ The app allows users to pin or unpin a note by clicking on a pin icon. This acti
 - **updateIsPinned** (Frontend): Sends an API request to toggle the `isPinned` state.
 - **PUT /is-pinned/:noteId** (Backend): Handles the request to update the pin state in the database.
 
-### Folder Structure
-```
-root
-│
-├── backend
-│   ├── models
-│   ├── routes
-│   ├── controllers
-│   └── server.js
-│
-└── frontend
-    ├── src
-    │   ├── components
-    │   │   ├── Navbar
-    │   │   ├── cards
-    │   │   ├── EmptyCard
-    │   │   └── ToastMessage
-    │   ├── pages
-    │   │   └── Home.js
-    │   ├── utils
-    │   └── App.js
-```
-
 ### Output
 Login page:
 ![login page](https://github.com/user-attachments/assets/43f706fa-f10d-42e4-835a-cfc219954d6d)
